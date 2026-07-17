@@ -54,14 +54,18 @@ export default function App() {
       }
       if (filters.status !== 'all' && place.status !== filters.status) return false;
       if (filters.cuisine !== 'all' && !place.cuisine.includes(filters.cuisine)) return false;
-      if (filters.openNow && getOpenStatus(place.hours, now).state === 'closed') return false;
+      if (filters.openNow) {
+        const state = getOpenStatus(place.hours, now).state;
+        if (state !== 'open' && state !== 'closing-soon') return false;
+      }
       return true;
     });
-    result.sort((a, b) =>
-      distances
-        ? distances.get(a.id)! - distances.get(b.id)!
-        : a.name.localeCompare(b.name),
-    );
+    result.sort((a, b) => {
+      if (distances) return distances.get(a.id)! - distances.get(b.id)!;
+      // curated places (with hours, notes, cuisine) lead; MUIS bulk imports follow
+      if (!!a.source !== !!b.source) return a.source ? 1 : -1;
+      return a.name.localeCompare(b.name);
+    });
     return result;
   }, [places, filters, now, distances]);
 

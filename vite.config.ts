@@ -30,8 +30,9 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // app shell + bundled dataset are precached; map tiles stay network-only
-        globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        // app shell + datasets (incl. data/muis-places.json) are precached;
+        // map tiles stay network-only
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
       },
     }),
   ],

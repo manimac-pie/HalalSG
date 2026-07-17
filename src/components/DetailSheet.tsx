@@ -48,7 +48,9 @@ export function DetailSheet({ place, now, distanceKm, onClose }: Props) {
           <CertBadge status={place.status} />
         </div>
         <p className="place-meta">
-          {place.area} · {place.priceRange} · {place.cuisine.join(', ')}
+          {[place.area, place.priceRange, place.cuisine.length ? place.cuisine.join(', ') : place.category]
+            .filter(Boolean)
+            .join(' · ')}
           {distanceKm !== undefined && (
             <span className="no-caps"> · {formatDistance(distanceKm)} away</span>
           )}
@@ -72,16 +74,26 @@ export function DetailSheet({ place, now, distanceKm, onClose }: Props) {
           )}
         </div>
 
-        <table className="hours-table">
-          <tbody>
-            {DAY_KEYS.map((day) => (
-              <tr key={day} className={day === now.day ? 'today' : ''}>
-                <td>{DAY_LABELS[day]}</td>
-                <td>{formatDayRanges(place.hours, day)}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        {place.hours ? (
+          <table className="hours-table">
+            <tbody>
+              {DAY_KEYS.map((day) => (
+                <tr key={day} className={day === now.day ? 'today' : ''}>
+                  <td>{DAY_LABELS[day]}</td>
+                  <td>{formatDayRanges(place.hours!, day)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : (
+          <p className="hours-missing">
+            Opening hours aren't available for this listing yet — it comes from the MUIS certified
+            directory, which doesn't publish hours.
+          </p>
+        )}
+        {place.certNumber && (
+          <p className="cert-number">MUIS certificate: {place.certNumber}</p>
+        )}
 
         <AdSlot slot="detail" />
         <p className="disclaimer">

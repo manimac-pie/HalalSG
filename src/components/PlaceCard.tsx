@@ -18,7 +18,9 @@ export function PlaceCard({ place, openStatus, distanceKm, onSelect }: Props) {
         {distanceKm !== undefined && <span className="distance">{formatDistance(distanceKm)}</span>}
       </div>
       <p className="place-meta">
-        {place.area} · {place.priceRange} · {place.cuisine.join(', ')}
+        {[place.area, place.priceRange, place.cuisine.length ? place.cuisine.join(', ') : place.category]
+          .filter(Boolean)
+          .join(' · ')}
       </p>
       <div className="badge-row">
         <OpenBadge status={openStatus} />

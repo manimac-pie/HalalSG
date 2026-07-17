@@ -12,7 +12,17 @@ A mobile-first web app for finding **halal-certified and Muslim-owned food place
 
 ## Data
 
-The dataset lives in [`src/data/places.json`](src/data/places.json) — a curated, community-maintained list. It is **not** an official MUIS source; hours and halal status can change, so always check on site. Spotted something wrong or missing? Open an issue or PR.
+Two sources, merged at runtime (`src/data/provider.ts`):
+
+1. **Curated list** — [`src/data/places.json`](src/data/places.json), hand-maintained places with opening hours, cuisine tags, and notes. Only these can show open/closed status.
+2. **MUIS certified directory** — [`public/data/muis-places.json`](public/data/muis-places.json), ~1,450 public eateries bulk-imported from the [MUIS e-Service](https://halal.muis.gov.sg/halal/establishments) (hawker stalls, restaurants, bakeries, kiosks; catering companies, central kitchens, staff canteens, and delivery-only virtual brands are excluded). MUIS publishes no opening hours, so these show "Hours unknown". Coordinates come from MUIS's own postal-code geodata. Refresh the snapshot with:
+
+```sh
+npm run muis:fetch   # dump the directory (~5 min, paced requests)
+npm run muis:build   # filter + join coordinates -> public/data/muis-places.json
+```
+
+Duplicates between the two sources are removed at load time (same postal code + similar name; the curated entry wins). This is a community project, **not** an official MUIS product; hours and halal status can change, so always check on site. Spotted something wrong or missing? Open an issue or PR.
 
 ### Adding a place
 
@@ -39,6 +49,6 @@ Pushing to `main` builds and deploys to GitHub Pages via `.github/workflows/depl
 
 ## Roadmap
 
-- Live data via Google Places API behind the existing `PlacesProvider` interface (`src/data/provider.ts`)
+- Live hours via Google Places API behind the existing `PlacesProvider` interface (`src/data/provider.ts`)
 - Ad slots (`src/components/AdSlot.tsx` is the reserved integration point)
-- Full MUIS-certified directory import
+- Marker clustering for dense areas on the map

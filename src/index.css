@@ -191,6 +191,17 @@ body {
   color: var(--text-muted);
 }
 
+.show-more {
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
 /* Card */
 .place-card {
   display: block;
@@ -270,6 +281,11 @@ body {
   color: var(--closed);
 }
 
+.badge-unknown {
+  background: var(--border);
+  color: var(--text-muted);
+}
+
 .badge-cert {
   background: var(--cert-bg);
   color: var(--cert);
@@ -316,6 +332,10 @@ body {
 
 .map-pin-user {
   background: #2563eb;
+}
+
+.map-pin-unknown {
+  background: #7d858d;
 }
 
 .map-legend {
@@ -497,6 +517,22 @@ body {
 .hours-table tr.today td {
   font-weight: 700;
   color: var(--primary);
+}
+
+.hours-missing {
+  margin: 8px 0 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.cert-number {
+  margin: 10px 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .disclaimer {

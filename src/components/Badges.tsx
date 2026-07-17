@@ -16,6 +16,9 @@ export function OpenBadge({ status }: { status: OpenStatus }) {
   if (status.state === 'closing-soon') {
     return <span className="badge badge-soon">Closing soon · {status.closesAt}</span>;
   }
+  if (status.state === 'unknown') {
+    return <span className="badge badge-unknown">Hours unknown</span>;
+  }
   return (
     <span className="badge badge-closed">
       Closed{status.opensAt ? ` · opens ${status.opensAt}` : ''}

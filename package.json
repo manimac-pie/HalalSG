@@ -9,6 +9,8 @@
     "lint": "oxlint",
     "test": "vitest run",
     "geocode": "node scripts/geocode.mjs",
+    "muis:fetch": "node scripts/fetch-muis.mjs muis-raw.json",
+    "muis:build": "node scripts/build-muis-dataset.mjs muis-raw.json",
     "preview": "vite preview"
   },
   "dependencies": {

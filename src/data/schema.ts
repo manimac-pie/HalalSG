@@ -32,9 +32,16 @@ export interface Place {
   geocode?: string;
   lat: number;
   lng: number;
-  hours: Hours;
-  priceRange: '$' | '$$' | '$$$';
+  /** Absent/null for bulk-imported MUIS listings — open status is unknown. */
+  hours?: Hours | null;
+  priceRange?: '$' | '$$' | '$$$';
   phone?: string;
   website?: string;
   notes?: string;
+  /** 'muis' = imported from the MUIS directory; absent = hand-curated. */
+  source?: 'muis';
+  /** MUIS certificate number, for imported listings. */
+  certNumber?: string;
+  /** MUIS sub-scheme, e.g. "Restaurant", "Hawker", for imported listings. */
+  category?: string;
 }

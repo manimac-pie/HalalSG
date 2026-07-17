@@ -95,6 +95,11 @@ describe('getOpenStatus', () => {
     expect(s.opensAt).toBe('tomorrow 09:00');
   });
 
+  it('reports unknown when hours are missing (MUIS imports)', () => {
+    expect(getOpenStatus(null, at('mon', '12:00')).state).toBe('unknown');
+    expect(getOpenStatus(undefined, at('mon', '12:00')).state).toBe('unknown');
+  });
+
   it('skips multiple closed days to find next opening', () => {
     const hours: Hours = { daily: null, sat: [['10:00', '16:00']] };
     const s = getOpenStatus(hours, at('mon', '12:00'));

@@ -54,7 +54,7 @@ function nextDay(day: DayKey): DayKey {
   return DAY_KEYS[(i + 1) % 7];
 }
 
-export type OpenState = 'open' | 'closing-soon' | 'closed';
+export type OpenState = 'open' | 'closing-soon' | 'closed' | 'unknown';
 
 export interface OpenStatus {
   state: OpenState;
@@ -80,8 +80,10 @@ const DAY_LABELS: Record<DayKey, string> = {
  * Whether the place is open at the given Singapore time.
  * Handles multiple ranges per day and overnight ranges (close <= open,
  * e.g. ["18:00","02:00"] keeps the place open into the next day).
+ * Places without stored hours (bulk MUIS imports) report 'unknown'.
  */
-export function getOpenStatus(hours: Hours, at: SgTime): OpenStatus {
+export function getOpenStatus(hours: Hours | null | undefined, at: SgTime): OpenStatus {
+  if (!hours) return { state: 'unknown' };
   const { day, minutes } = at;
 
   // Ranges starting today
