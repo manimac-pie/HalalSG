@@ -49,6 +49,4 @@ Pushing to `main` builds and deploys to GitHub Pages via `.github/workflows/depl
 
 ## Roadmap
 
-- Live hours via Google Places API behind the existing `PlacesProvider` interface (`src/data/provider.ts`)
-- Ad slots (`src/components/AdSlot.tsx` is the reserved integration point)
-- Marker clustering for dense areas on the map
+See [ROADMAP.md](ROADMAP.md) for the full improvement checklist. Headlines: hours enrichment (OSM, later Google Places), weekly MUIS data auto-refresh, shareable place links, and marker clustering.
