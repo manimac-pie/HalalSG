@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "zam-zam",
+    "name": "Singapore Zam Zam",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indian"
+    ],
+    "address": "697 North Bridge Road, Singapore 198675",
+    "area": "Kampong Glam",
+    "lat": 1.30223,
+    "lng": 103.85844,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "23:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Historic murtabak and briyani institution opposite Sultan Mosque, since 1908."
+  },
+  {
+    "id": "victory-restaurant",
+    "name": "Victory Restaurant",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indian"
+    ],
+    "address": "701 North Bridge Road, Singapore 198677",
+    "area": "Kampong Glam",
+    "lat": 1.3023,
+    "lng": 103.85848,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "22:30"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Zam Zam's next-door murtabak rival, also over a century old."
+  },
+  {
+    "id": "islamic-restaurant",
+    "name": "Islamic Restaurant",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indian"
+    ],
+    "address": "745 North Bridge Road, Singapore 198713",
+    "area": "Kampong Glam",
+    "lat": 1.30321,
+    "lng": 103.85906,
+    "hours": {
+      "daily": [
+        [
+          "10:00",
+          "21:30"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Dum briyani specialists since 1921."
+  },
+  {
+    "id": "hjh-maimunah-jln-pisang",
+    "name": "Hjh Maimunah Restaurant",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay"
+    ],
+    "address": "11 Jalan Pisang, Singapore 199078",
+    "area": "Kampong Glam",
+    "lat": 1.30311,
+    "lng": 103.85855,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "19:30"
+        ]
+      ],
+      "sun": null
+    },
+    "priceRange": "$",
+    "notes": "Michelin Bib Gourmand nasi padang."
+  },
+  {
+    "id": "warong-nasi-pariaman",
+    "name": "Warong Nasi Pariaman",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indonesian",
+      "malay"
+    ],
+    "address": "738 North Bridge Road, Singapore 198706",
+    "area": "Kampong Glam",
+    "lat": 1.30288,
+    "lng": 103.85922,
+    "hours": {
+      "daily": [
+        [
+          "07:30",
+          "15:00"
+        ]
+      ],
+      "sun": null
+    },
+    "priceRange": "$",
+    "notes": "Padang-style nasi padang since 1948; go early, dishes sell out."
+  },
+  {
+    "id": "rumah-makan-minang",
+    "name": "Rumah Makan Minang",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indonesian",
+      "malay"
+    ],
+    "address": "18 Kandahar Street, Singapore 198884",
+    "area": "Kampong Glam",
+    "lat": 1.30229,
+    "lng": 103.85956,
+    "hours": {
+      "daily": [
+        [
+          "08:00",
+          "19:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Minangkabau nasi padang behind Sultan Mosque."
+  },
+  {
+    "id": "sabar-menanti",
+    "name": "Sabar Menanti Restaurant",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay"
+    ],
+    "address": "747 North Bridge Road, Singapore 198715",
+    "area": "Kampong Glam",
+    "lat": 1.30324,
+    "lng": 103.85908,
+    "hours": {
+      "daily": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "sun": null
+    },
+    "priceRange": "$"
+  },
+  {
+    "id": "bhai-sarbat",
+    "name": "Bhai Sarbat Teh Tarik",
+    "status": "muslim-owned",
+    "cuisine": [
+      "cafe",
+      "indian"
+    ],
+    "address": "21 Bussorah Street, Singapore 199439",
+    "area": "Kampong Glam",
+    "lat": 1.30141,
+    "lng": 103.85994,
+    "hours": {
+      "daily": [
+        [
+          "06:30",
+          "22:00"
+        ]
+      ],
+      "fri": [
+        [
+          "06:30",
+          "12:30"
+        ],
+        [
+          "14:00",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Famous pulled tea stall near Sultan Mosque."
+  },
+  {
+    "id": "alaturka",
+    "name": "Alaturka Turkish & Mediterranean Restaurant",
+    "status": "muis-certified",
+    "cuisine": [
+      "turkish",
+      "middle-eastern"
+    ],
+    "address": "15 Bussorah Street, Singapore 199436",
+    "area": "Kampong Glam",
+    "lat": 1.30123,
+    "lng": 103.86008,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$"
+  },
+  {
+    "id": "positano-risto",
+    "name": "Positano Risto",
+    "status": "muis-certified",
+    "cuisine": [
+      "italian",
+      "western"
+    ],
+    "address": "66 Bussorah Street, Singapore 199479",
+    "area": "Kampong Glam",
+    "lat": 1.30102,
+    "lng": 103.8598,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$"
+  },
+  {
+    "id": "beirut-grill",
+    "name": "Beirut Grill",
+    "status": "muslim-owned",
+    "cuisine": [
+      "middle-eastern"
+    ],
+    "address": "72 Bussorah Street, Singapore 199485",
+    "area": "Kampong Glam",
+    "lat": 1.30081,
+    "lng": 103.85996,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "22:30"
+        ]
+      ]
+    },
+    "priceRange": "$$"
+  },
+  {
+    "id": "hararu-izakaya",
+    "name": "Hararu Izakaya",
+    "status": "muslim-owned",
+    "cuisine": [
+      "japanese"
+    ],
+    "address": "16 Bussorah Street, Singapore 199437",
+    "area": "Kampong Glam",
+    "lat": 1.30127,
+    "lng": 103.86006,
+    "hours": {
+      "daily": [
+        [
+          "17:30",
+          "22:30"
+        ]
+      ],
+      "mon": null
+    },
+    "priceRange": "$$",
+    "notes": "Halal Japanese izakaya."
+  },
+  {
+    "id": "malayan-council",
+    "name": "The Malayan Council",
+    "status": "muslim-owned",
+    "cuisine": [
+      "western",
+      "malay"
+    ],
+    "address": "22 Dunlop Street, Singapore 209350",
+    "area": "Little India",
+    "lat": 1.30465,
+    "lng": 103.85413,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "21:30"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Modern Western-Malay fusion; known for towering cakes."
+  },
+  {
+    "id": "tipo-pasta-bar",
+    "name": "Tipo Pasta Bar",
+    "status": "muslim-owned",
+    "cuisine": [
+      "italian"
+    ],
+    "address": "785 North Bridge Road, Singapore 198753",
+    "area": "Kampong Glam",
+    "lat": 1.3039,
+    "lng": 103.8599,
+    "hours": {
+      "daily": [
+        [
+          "12:00",
+          "21:30"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Build-your-own handmade pasta."
+  },
+  {
+    "id": "the-dim-sum-place",
+    "name": "The Dim Sum Place",
+    "status": "muis-certified",
+    "cuisine": [
+      "chinese"
+    ],
+    "address": "791 North Bridge Road, Singapore 198759",
+    "area": "Kampong Glam",
+    "lat": 1.30402,
+    "lng": 103.86013,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Halal dim sum."
+  },
+  {
+    "id": "the-ramen-stall",
+    "name": "The Ramen Stall",
+    "status": "muis-certified",
+    "cuisine": [
+      "japanese"
+    ],
+    "address": "787 North Bridge Road, Singapore 198755",
+    "area": "Kampong Glam",
+    "lat": 1.30394,
+    "lng": 103.85995,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "02:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Halal ramen, open till late."
+  },
+  {
+    "id": "all-things-delicious",
+    "name": "All Things Delicious",
+    "status": "muis-certified",
+    "cuisine": [
+      "cafe",
+      "bakery"
+    ],
+    "address": "34 Arab Street, Singapore 199733",
+    "area": "Kampong Glam",
+    "lat": 1.30064,
+    "lng": 103.85983,
+    "hours": {
+      "daily": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "mon": null
+    },
+    "priceRange": "$$",
+    "notes": "Brunch cafe and bakery."
+  },
+  {
+    "id": "i-am-cafe",
+    "name": "I Am... Cafe",
+    "status": "muslim-owned",
+    "cuisine": [
+      "western",
+      "cafe"
+    ],
+    "address": "674 North Bridge Road, Singapore 188804",
+    "area": "Kampong Glam",
+    "lat": 1.30165,
+    "lng": 103.85844,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "21:30"
+        ]
+      ],
+      "fri": [
+        [
+          "11:00",
+          "22:30"
+        ]
+      ],
+      "sat": [
+        [
+          "11:00",
+          "22:30"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Burgers and red velvet cake at the mouth of Haji Lane."
+  },
+  {
+    "id": "fluff-bakery",
+    "name": "Fluff Bakery",
+    "status": "muslim-owned",
+    "cuisine": [
+      "bakery",
+      "dessert"
+    ],
+    "address": "12 Jalan Pisang, Singapore 199080",
+    "area": "Kampong Glam",
+    "lat": 1.30333,
+    "lng": 103.85869,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "19:00"
+        ]
+      ],
+      "sun": null
+    },
+    "priceRange": "$"
+  },
+  {
+    "id": "permata",
+    "name": "Permata Singapore",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay"
+    ],
+    "address": "73 Sultan Gate, Singapore 198497",
+    "area": "Kampong Glam",
+    "lat": 1.30219,
+    "lng": 103.86004,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "15:00"
+        ],
+        [
+          "18:00",
+          "22:00"
+        ]
+      ],
+      "mon": null
+    },
+    "priceRange": "$$$",
+    "notes": "Modern heritage Malay dining at Gedung Kuning."
+  },
+  {
+    "id": "mamanda",
+    "name": "Mamanda",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay"
+    ],
+    "address": "89 Sultan Gate, Singapore 198501",
+    "area": "Kampong Glam",
+    "lat": 1.30317,
+    "lng": 103.86005,
+    "hours": {
+      "daily": [
+        [
+          "12:00",
+          "15:00"
+        ],
+        [
+          "18:00",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$$",
+    "notes": "Royal Malay cuisine in a heritage bungalow."
+  },
+  {
+    "id": "bismillah-biryani",
+    "name": "Bismillah Biryani",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indian"
+    ],
+    "address": "50 Dunlop Street, Singapore 209379",
+    "area": "Little India",
+    "lat": 1.30504,
+    "lng": 103.85371,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "20:30"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Dum briyani; former Michelin Bib Gourmand."
+  },
+  {
+    "id": "allauddins-briyani",
+    "name": "Allauddin's Briyani",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indian",
+      "hawker"
+    ],
+    "address": "665 Buffalo Road, Tekka Centre #01-232, Singapore 210665",
+    "geocode": "Tekka Centre",
+    "lat": 1.30625,
+    "lng": 103.84996,
+    "area": "Little India",
+    "hours": {
+      "daily": [
+        [
+          "08:00",
+          "20:00"
+        ]
+      ]
+    },
+    "priceRange": "$"
+  },
+  {
+    "id": "usman-restaurant",
+    "name": "Usman Restaurant",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indian"
+    ],
+    "address": "238 Serangoon Road, Singapore 218085",
+    "area": "Little India",
+    "lat": 1.30967,
+    "lng": 103.85404,
+    "hours": {
+      "daily": [
+        [
+          "08:00",
+          "23:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "North Indian and Pakistani fare; naan and tandoori."
+  },
+  {
+    "id": "masizzim",
+    "name": "Masizzim",
+    "status": "muis-certified",
+    "cuisine": [
+      "korean"
+    ],
+    "address": "313 Orchard Road, 313@somerset #B3-02, Singapore 238895",
+    "geocode": "313 Orchard Road",
+    "area": "Orchard",
+    "lat": 1.30101,
+    "lng": 103.83836,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Korean rice cakes and stew."
+  },
+  {
+    "id": "carousel",
+    "name": "Carousel Buffet",
+    "status": "muis-certified",
+    "cuisine": [
+      "buffet",
+      "western",
+      "japanese"
+    ],
+    "address": "25 Scotts Road, Royal Plaza on Scotts, Singapore 228220",
+    "geocode": "Royal Plaza on Scotts",
+    "area": "Orchard",
+    "lat": 1.307,
+    "lng": 103.83236,
+    "hours": {
+      "daily": [
+        [
+          "12:00",
+          "14:30"
+        ],
+        [
+          "18:00",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$$",
+    "notes": "Award-winning halal buffet at Royal Plaza on Scotts."
+  },
+  {
+    "id": "warung-m-nasir",
+    "name": "Warung M Nasir",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay",
+      "indonesian"
+    ],
+    "address": "69 Killiney Road, Singapore 239525",
+    "area": "River Valley",
+    "lat": 1.29882,
+    "lng": 103.83947,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "20:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Nasi padang; the ayam bakar is a favourite."
+  },
+  {
+    "id": "ayam-penyet-president",
+    "name": "Ayam Penyet President",
+    "status": "muis-certified",
+    "cuisine": [
+      "indonesian"
+    ],
+    "address": "304 Orchard Road, Lucky Plaza #04-25, Singapore 238863",
+    "geocode": "Lucky Plaza",
+    "area": "Orchard",
+    "lat": 1.30451,
+    "lng": 103.83396,
+    "hours": {
+      "daily": [
+        [
+          "10:30",
+          "21:30"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Smashed fried chicken with fiery sambal."
+  },
+  {
+    "id": "monster-curry-plaza-sing",
+    "name": "Monster Curry",
+    "status": "muis-certified",
+    "cuisine": [
+      "japanese"
+    ],
+    "address": "68 Orchard Road, Plaza Singapura #B2-31, Singapore 238839",
+    "geocode": "Plaza Singapura",
+    "area": "Dhoby Ghaut",
+    "lat": 1.30075,
+    "lng": 103.84505,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Japanese demi-glace curry on giant platters."
+  },
+  {
+    "id": "royz-et-vous",
+    "name": "Royz et Vous",
+    "status": "muslim-owned",
+    "cuisine": [
+      "western",
+      "cafe"
+    ],
+    "address": "137 Telok Ayer Street, Singapore 068602",
+    "area": "Telok Ayer",
+    "lat": 1.28081,
+    "lng": 103.84801,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "21:30"
+        ]
+      ],
+      "sun": null
+    },
+    "priceRange": "$$",
+    "notes": "Halal fine-casual dining in the CBD."
+  },
+  {
+    "id": "hjh-maimunah-joo-chiat",
+    "name": "Hjh Maimunah Restaurant (Joo Chiat)",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay"
+    ],
+    "address": "20 Joo Chiat Road, Singapore 427357",
+    "area": "Joo Chiat",
+    "lat": 1.31546,
+    "lng": 103.89785,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "19:30"
+        ]
+      ],
+      "sun": null
+    },
+    "priceRange": "$"
+  },
+  {
+    "id": "springleaf-tua-kong",
+    "name": "Springleaf Prata Place (Jalan Tua Kong)",
+    "status": "muis-certified",
+    "cuisine": [
+      "indian"
+    ],
+    "address": "1 Jalan Tua Kong, Singapore 457253",
+    "area": "Siglap",
+    "lat": 1.31604,
+    "lng": 103.92543,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "22:30"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Inventive pratas — try the Ultimate Murtabak."
+  },
+  {
+    "id": "birds-of-paradise",
+    "name": "Birds of Paradise Gelato Boutique",
+    "status": "muis-certified",
+    "cuisine": [
+      "dessert"
+    ],
+    "address": "63 East Coast Road, Singapore 428776",
+    "area": "Katong",
+    "lat": 1.30521,
+    "lng": 103.90347,
+    "hours": {
+      "daily": [
+        [
+          "12:00",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Botanical gelato; Michelin-listed."
+  },
+  {
+    "id": "badoque-cafe",
+    "name": "Badoque Cafe",
+    "status": "muslim-owned",
+    "cuisine": [
+      "western"
+    ],
+    "address": "298 Bedok Road, Singapore 469454",
+    "area": "Simpang Bedok",
+    "lat": 1.33151,
+    "lng": 103.94862,
+    "hours": {
+      "daily": [
+        [
+          "12:00",
+          "22:00"
+        ]
+      ],
+      "mon": null
+    },
+    "priceRange": "$$",
+    "notes": "Ribs, burgers and pastas."
+  },
+  {
+    "id": "spize-river-valley",
+    "name": "Spize (River Valley)",
+    "status": "muis-certified",
+    "cuisine": [
+      "western",
+      "malay",
+      "indian"
+    ],
+    "address": "409 River Valley Road, Singapore 248307",
+    "area": "River Valley",
+    "lat": 1.29528,
+    "lng": 103.82995,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "02:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Late-night supper institution."
+  },
+  {
+    "id": "percolate",
+    "name": "Percolate",
+    "status": "muslim-owned",
+    "cuisine": [
+      "cafe"
+    ],
+    "address": "136 Bedok North Avenue 3, #01-152, Singapore 460136",
+    "geocode": "136 Bedok North Avenue 3",
+    "area": "Bedok",
+    "lat": 1.32815,
+    "lng": 103.93522,
+    "hours": {
+      "daily": [
+        [
+          "09:00",
+          "18:00"
+        ]
+      ],
+      "tue": null
+    },
+    "priceRange": "$",
+    "notes": "Specialty coffee in a Bedok heartland block."
+  },
+  {
+    "id": "sinar-pagi-nasi-padang",
+    "name": "Sinar Pagi Nasi Padang",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay",
+      "indonesian",
+      "hawker"
+    ],
+    "address": "1 Geylang Serai, Geylang Serai Market #02-137, Singapore 402001",
+    "geocode": "Geylang Serai Market",
+    "area": "Geylang Serai",
+    "lat": 1.31673,
+    "lng": 103.89798,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "15:00"
+        ]
+      ],
+      "mon": null
+    },
+    "priceRange": "$",
+    "notes": "Michelin Bib Gourmand nasi padang stall."
+  },
+  {
+    "id": "haig-road-putu-piring",
+    "name": "Traditional Haig Road Putu Piring",
+    "status": "muslim-owned",
+    "cuisine": [
+      "dessert",
+      "hawker"
+    ],
+    "address": "14 Haig Road, Haig Road Market & Food Centre #01-07, Singapore 430014",
+    "geocode": "Haig Road Market",
+    "area": "Geylang Serai",
+    "lat": 1.31543,
+    "lng": 103.89548,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "21:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Steamed rice cakes with gula melaka."
+  },
+  {
+    "id": "arnolds-city-plaza",
+    "name": "Arnold's Fried Chicken (City Plaza)",
+    "status": "muis-certified",
+    "cuisine": [
+      "western"
+    ],
+    "address": "810 Geylang Road, City Plaza #01-02/03, Singapore 409286",
+    "geocode": "City Plaza",
+    "area": "Paya Lebar",
+    "lat": 1.31479,
+    "lng": 103.89347,
+    "hours": {
+      "daily": [
+        [
+          "09:30",
+          "22:30"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Old-school fried chicken since 1983."
+  },
+  {
+    "id": "ponggol-nasi-lemak",
+    "name": "Ponggol Nasi Lemak",
+    "status": "muis-certified",
+    "cuisine": [
+      "chinese",
+      "malay"
+    ],
+    "address": "965 Upper Serangoon Road, Singapore 534721",
+    "area": "Upper Serangoon",
+    "lat": 1.36191,
+    "lng": 103.88664,
+    "hours": {
+      "daily": [
+        [
+          "17:00",
+          "23:45"
+        ]
+      ],
+      "mon": null
+    },
+    "priceRange": "$",
+    "notes": "Halal-certified Chinese-style nasi lemak, dinner till late."
+  },
+  {
+    "id": "rasa-istimewa-waterfront",
+    "name": "Rasa Istimewa Waterfront Restaurant",
+    "status": "muslim-owned",
+    "cuisine": [
+      "seafood",
+      "malay",
+      "chinese"
+    ],
+    "address": "6A Admiralty Road West, Singapore 757441",
+    "geocode": "Woodlands Waterfront Park",
+    "area": "Woodlands",
+    "lat": 1.4538,
+    "lng": 103.78162,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "21:30"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Halal seafood by Woodlands Waterfront."
+  },
+  {
+    "id": "al-azhar-bukit-timah",
+    "name": "Al-Azhar Restaurant",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indian",
+      "malay"
+    ],
+    "address": "11 Cheong Chin Nam Road, Singapore 599736",
+    "area": "Bukit Timah",
+    "lat": 1.34289,
+    "lng": 103.77517,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "02:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Prata and thosai supper stop near Beauty World."
+  },
+  {
+    "id": "al-ameen-bukit-timah",
+    "name": "Al-Ameen Eating Corner",
+    "status": "muslim-owned",
+    "cuisine": [
+      "indian",
+      "malay"
+    ],
+    "address": "12 Cheong Chin Nam Road, Singapore 599737",
+    "area": "Bukit Timah",
+    "lat": 1.34303,
+    "lng": 103.77516,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "02:00"
+        ]
+      ]
+    },
+    "priceRange": "$",
+    "notes": "Supper favourite; famous for maggi goreng."
+  },
+  {
+    "id": "seoul-garden-jem",
+    "name": "Seoul Garden (Jem)",
+    "status": "muis-certified",
+    "cuisine": [
+      "korean",
+      "buffet"
+    ],
+    "address": "50 Jurong Gateway Road, Jem #04-06, Singapore 608549",
+    "geocode": "Jem Jurong Gateway",
+    "area": "Jurong East",
+    "lat": 1.33329,
+    "lng": 103.74328,
+    "hours": {
+      "daily": [
+        [
+          "11:30",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Halal Korean BBQ steamboat buffet."
+  },
+  {
+    "id": "selera-rasa-nasi-lemak",
+    "name": "Selera Rasa Nasi Lemak",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay",
+      "hawker"
+    ],
+    "address": "2 Adam Road, Adam Road Food Centre #01-02, Singapore 289876",
+    "geocode": "Adam Road Food Centre",
+    "area": "Bukit Timah",
+    "lat": 1.32408,
+    "lng": 103.81418,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "17:00"
+        ]
+      ],
+      "fri": null
+    },
+    "priceRange": "$",
+    "notes": "The Sultan of Brunei's favourite nasi lemak."
+  },
+  {
+    "id": "mizzy-corner",
+    "name": "Mizzy Corner Nasi Lemak",
+    "status": "muslim-owned",
+    "cuisine": [
+      "malay",
+      "hawker"
+    ],
+    "address": "2 Changi Village Road, Changi Village Hawker Centre #01-26, Singapore 500002",
+    "geocode": "Changi Village Hawker Centre",
+    "area": "Changi Village",
+    "lat": 1.38915,
+    "lng": 103.98825,
+    "hours": {
+      "daily": [
+        [
+          "07:00",
+          "19:00"
+        ]
+      ]
+    },
+    "priceRange": "$"
+  },
+  {
+    "id": "butter-studio",
+    "name": "Butter Studio",
+    "status": "muslim-owned",
+    "cuisine": [
+      "bakery",
+      "dessert",
+      "cafe"
+    ],
+    "address": "147 Jalan Besar, Singapore 208865",
+    "area": "Jalan Besar",
+    "lat": 1.30718,
+    "lng": 103.85624,
+    "hours": {
+      "daily": [
+        [
+          "12:00",
+          "21:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Artisan bakes and comfort brunch."
+  },
+  {
+    "id": "tolidos-espresso-nook",
+    "name": "Tolido's Espresso Nook",
+    "status": "muslim-owned",
+    "cuisine": [
+      "cafe",
+      "western"
+    ],
+    "address": "462 Crawford Lane #01-63, Singapore 190462",
+    "geocode": "462 Crawford Lane",
+    "area": "Lavender",
+    "lat": 1.30459,
+    "lng": 103.86084,
+    "hours": {
+      "daily": [
+        [
+          "09:00",
+          "17:30"
+        ]
+      ],
+      "tue": null
+    },
+    "priceRange": "$$",
+    "notes": "Brunch and specialty coffee."
+  },
+  {
+    "id": "trapizza",
+    "name": "Trapizza",
+    "status": "muis-certified",
+    "cuisine": [
+      "italian",
+      "western"
+    ],
+    "address": "10 Siloso Beach Walk, Sentosa, Singapore 098995",
+    "geocode": "Siloso Beach Walk",
+    "area": "Sentosa",
+    "lat": 1.25363,
+    "lng": 103.81514,
+    "hours": {
+      "daily": [
+        [
+          "12:00",
+          "21:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Beachfront wood-fired pizza by Shangri-La."
+  },
+  {
+    "id": "working-title",
+    "name": "Working Title",
+    "status": "muslim-owned",
+    "cuisine": [
+      "western",
+      "cafe"
+    ],
+    "address": "48 Arab Street, Singapore 199745",
+    "area": "Kampong Glam",
+    "lat": 1.3008,
+    "lng": 103.85966,
+    "hours": {
+      "daily": [
+        [
+          "11:00",
+          "22:00"
+        ]
+      ]
+    },
+    "priceRange": "$$",
+    "notes": "Burger joint in a shophouse."
+  }
+]
