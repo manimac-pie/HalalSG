@@ -21,6 +21,7 @@ interface MuisRow {
   c?: string; // certificate number
   s?: string; // sub-scheme, e.g. "Restaurant"
   ar?: string; // area derived from postal district
+  l?: string; // MUIS logo id, present for the few places that uploaded one
 }
 
 const norm = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -46,6 +47,7 @@ function toPlace(row: MuisRow, index: number): Place {
     source: 'muis',
     certNumber: row.c,
     category: row.s,
+    logoUrl: row.l ? `https://halal.muis.gov.sg/logo/${row.l}?size=96` : undefined,
   };
 }
 

@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 
 const outDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../public/icons');
 
-const BG = [13, 122, 79, 255]; // --primary green
+const BG = [117, 116, 74, 255]; // --primary olive (#75744a)
 const FG = [255, 255, 255, 255];
 
 function crc32(buf) {

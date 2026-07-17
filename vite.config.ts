@@ -15,8 +15,8 @@ export default defineConfig({
         short_name: 'HalalSG',
         description:
           'Find halal-certified and Muslim-owned food places in Singapore that are open right now.',
-        theme_color: '#0d7a4f',
-        background_color: '#f6f7f5',
+        theme_color: '#75744a',
+        background_color: '#dce7e7',
         display: 'standalone',
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },

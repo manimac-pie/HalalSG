@@ -44,4 +44,6 @@ export interface Place {
   certNumber?: string;
   /** MUIS sub-scheme, e.g. "Restaurant", "Hawker", for imported listings. */
   category?: string;
+  /** Logo image URL; most places have none and get a monogram avatar instead. */
+  logoUrl?: string;
 }

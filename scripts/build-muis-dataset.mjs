@@ -88,6 +88,7 @@ for (const r of raw) {
   }
 
   const address = titleCase(r.address.replace(/\s*\d{6}\s*$/, '').trim());
+  const NO_LOGO = '00000000-0000-0000-0000-000000000000';
   rows.push({
     n: titleCase(r.name),
     a: `${address}, Singapore ${postal}`,
@@ -97,6 +98,7 @@ for (const r of raw) {
     c: r.number || undefined,
     s: r.subSchemeText,
     ar: SECTOR_AREAS[postal.slice(0, 2)] ?? '',
+    l: r.logo && r.logo !== NO_LOGO ? r.logo : undefined,
   });
 }
 

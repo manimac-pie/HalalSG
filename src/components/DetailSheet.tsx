@@ -5,6 +5,7 @@ import { formatDayRanges, getOpenStatus } from '../lib/openNow';
 import { formatDistance } from '../lib/distance';
 import { CertBadge, OpenBadge } from './Badges';
 import { AdSlot } from './AdSlot';
+import { Avatar } from './Avatar';
 import { REPO_URL } from '../config';
 
 const DAY_LABELS: Record<string, string> = {
@@ -38,6 +39,7 @@ export function DetailSheet({ place, now, distanceKm, onClose }: Props) {
       >
         <div className="sheet-handle" />
         <div className="sheet-header">
+          <Avatar place={place} size={48} />
           <h2>{place.name}</h2>
           <button type="button" className="sheet-close" onClick={onClose} aria-label="Close">
             ✕

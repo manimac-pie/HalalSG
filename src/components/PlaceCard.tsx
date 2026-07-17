@@ -2,6 +2,7 @@ import type { Place } from '../data/schema';
 import type { OpenStatus } from '../lib/openNow';
 import { formatDistance } from '../lib/distance';
 import { CertBadge, OpenBadge } from './Badges';
+import { Avatar } from './Avatar';
 
 interface Props {
   place: Place;
@@ -14,9 +15,10 @@ export function PlaceCard({ place, openStatus, distanceKm, onSelect }: Props) {
   return (
     <button type="button" className="place-card" onClick={() => onSelect(place)}>
       <div className="place-card-top">
-        <h3>{place.name}</h3>
+        <Avatar place={place} />
         {distanceKm !== undefined && <span className="distance">{formatDistance(distanceKm)}</span>}
       </div>
+      <h3>{place.name}</h3>
       <p className="place-meta">
         {[place.area, place.priceRange, place.cuisine.length ? place.cuisine.join(', ') : place.category]
           .filter(Boolean)

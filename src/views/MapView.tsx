@@ -10,10 +10,10 @@ const SG_CENTER: [number, number] = [1.335, 103.845];
 
 // Canvas-rendered circle markers keep the map responsive with thousands of pins.
 const PIN_COLORS: Record<OpenState, string> = {
-  open: '#0d9c62',
-  'closing-soon': '#e8940a',
-  closed: '#b3443e',
-  unknown: '#7d858d',
+  open: '#97a447',
+  'closing-soon': '#b47459',
+  closed: '#a73430',
+  unknown: '#8b857b',
 };
 
 const userIcon = L.divIcon({
