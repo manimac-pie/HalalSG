@@ -22,28 +22,9 @@
   --shadow: 0 1px 3px rgba(54, 45, 41, 0.12);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #362d29;
-    --surface: #453832;
-    --text: #e8e0d0;
-    --text-muted: #b3a894;
-    --border: #5a4a40;
-    --primary: #afb061;
-    --on-primary: #362d29;
-    --primary-soft: #4a4b32;
-    --open: #afb061;
-    --open-bg: #4a4b32;
-    --soon: #d8977a;
-    --soon-bg: #57392b;
-    --closed: #e0776f;
-    --closed-bg: #572c29;
-    --cert: #d1c5a1;
-    --cert-bg: #5a4438;
-    --owned: #c4aec3;
-    --owned-bg: #574b56;
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-  }
+/* Always light: the app opts out of OS dark mode by design. */
+:root {
+  color-scheme: light;
 }
 
 * {
